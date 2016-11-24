@@ -1,0 +1,9 @@
+* Download IntelliJ IDEA https://www.jetbrains.com/idea/download/
+* clone this repository and open in IntelliJ
+* .jar file can be found within the target folder. take .jar file ending in 'with-depencies'
+* copy .jar file into plugins folder of your neo4j instance
+* restart neo4j: ./bin/neo4j restart
+* to test slug function run: RETURN create.slug('Hello. Wòrld!') AS slug
+CREATE NEW JAR FILES
+* Hover over grey box icon in very bottom left of IntelliJ -> click Maven Projects to open Maven Projects window
+* Arrow down 'Lifecycle' and double click 'package' to generate new .jar files
